@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.priyanka2005.railwayapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".inside_activities.InsideHome" />
+        <activity android:name=".inside_activities.InsideSignal" />
+        <activity android:name=".inside_activities.InsideTele" />
+        <activity android:name=".inside_activities.InsideGen" />
+        <activity android:name=".inside_activities.InsideWatc" />
+        <activity android:name=".inside_signal.aftc.aftc.aftc_0"></activity>
+    </application>
+
+</manifest>
